@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – FameRoom</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+
+    .container { max-width: 800px; margin: 0 auto; }
+
+    header {
+      text-align: center;
+      padding-bottom: 40px;
+      margin-bottom: 48px;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #a855f7, #ec4899);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+    header p { color: #bbb; font-size: 15px; }
+
+    .hero { text-align: center; margin-bottom: 48px; }
+    .hero h1 { font-size: 32px; font-weight: 700; color: #fff; margin-bottom: 12px; }
+    .hero p { color: #bbb; font-size: 16px; max-width: 520px; margin: 0 auto; }
+
+    .contact-card {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .contact-icon { font-size: 40px; flex-shrink: 0; }
+    .contact-card h2 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .contact-card p { color: #bbb; font-size: 15px; margin-bottom: 12px; }
+    .contact-card a {
+      display: inline-block;
+      background: linear-gradient(135deg, #a855f7, #ec4899);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .contact-card a:hover { opacity: 0.85; }
+
+    h2.section-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #222;
+    }
+
+    .faq { margin-bottom: 48px; }
+    .faq-item {
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+    .faq-item h3 { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .faq-item p { color: #bbb; font-size: 15px; }
+    .faq-item a { color: #a855f7; text-decoration: underline; }
+
+    .steps { margin-bottom: 48px; }
+    .step { display: flex; gap: 16px; margin-bottom: 20px; align-items: flex-start; }
+    .step-num {
+      background: linear-gradient(135deg, #a855f7, #ec4899);
+      color: #fff;
+      font-weight: 800;
+      font-size: 14px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .step-body h3 { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .step-body p { color: #bbb; font-size: 15px; }
+
+    footer {
+      text-align: center;
+      color: #555;
+      font-size: 13px;
+      padding-top: 32px;
+      border-top: 1px solid #222;
+      margin-top: 40px;
+    }
+    footer a { color: #a855f7; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      .contact-card { flex-direction: column; gap: 12px; }
+      .hero h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="logo">FameRoom</div>
+    <p>Practice Live Streaming</p>
+  </header>
+
+  <div class="hero">
+    <h1>How can we help?</h1>
+    <p>Find answers to common questions or reach out and we’ll get back to you as soon as possible.</p>
+  </div>
+
+  <div class="contact-card">
+    <div class="contact-icon">✉️</div>
+    <div>
+      <h2>Contact Support</h2>
+      <p>Have a question, found a bug, or need help with your subscription? We’re here for you.</p>
+      <a href="mailto:azyryaev@googlemail.com">Email Support</a>
+    </div>
+  </div>
+
+  <div class="steps">
+    <h2 class="section-title">Getting Started</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h3>Open FameRoom</h3>
+        <p>Launch the app — no account or sign-in needed. Your practice sessions stay private on your device.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h3>Set Up Your Stream</h3>
+        <p>Customize your stream name, choose a duration, and get ready. The app uses your front camera to simulate the live experience.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h3>Go Live (for Practice)</h3>
+        <p>Tap Go Live and watch as simulated viewers join, comments scroll in, and hearts and gifts appear — just like a real stream.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <h3>Review &amp; Repeat</h3>
+        <p>End your stream and review your session. Practice as many times as you like until you feel ready for a real audience.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Does FameRoom actually broadcast to TikTok or Instagram?</h3>
+      <p>No — FameRoom is a practice environment only. Nothing is ever recorded, uploaded, or shared. All viewers, comments, hearts, and gifts are completely simulated on your device.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Why does the app need camera access?</h3>
+      <p>The camera is used to show your face in the practice stream preview — exactly like it would appear in a real live stream. No video is ever recorded or transmitted.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is Fame Room Pro?</h3>
+      <p>Fame Room Pro is an optional subscription that unlocks unlimited practice streaming sessions. It’s available as a weekly ($6.99/week) or yearly ($29.99/year) plan.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I cancel my subscription?</h3>
+      <p>You can manage or cancel your subscription anytime through your iPhone Settings → Apple ID → Subscriptions → FameRoom. Alternatively, open the Settings tab inside the app and tap "Restore Purchases" or "Manage Subscription".</p>
+    </div>
+    <div class="faq-item">
+      <h3>I was charged but can’t access Pro features — what do I do?</h3>
+      <p>Go to Settings inside the app and tap <strong>Restore Purchases</strong>. This will re-apply your subscription. If the issue persists, please <a href="mailto:azyryaev@googlemail.com">contact support</a>.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is my data private?</h3>
+      <p>Yes. FameRoom doesn’t collect personal data, require an account, or send any information to external servers. See our full <a href="https://azyryaev-ux.github.io/site-fameroom/privacy-policy">Privacy Policy</a> for details.</p>
+    </div>
+    <div class="faq-item">
+      <h3>The app is crashing or not working correctly</h3>
+      <p>Try force-closing and reopening the app. If the issue continues, please <a href="mailto:azyryaev@googlemail.com">email us</a> with your device model and iOS version and we’ll help right away.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      © 2026 FameRoom &nbsp;·&nbsp;
+      <a href="https://azyryaev-ux.github.io/site-fameroom/privacy-policy">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="https://azyryaev-ux.github.io/site-fameroom/terms-of-service">Terms of Service</a>
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>
